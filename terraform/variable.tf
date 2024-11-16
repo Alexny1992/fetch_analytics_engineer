@@ -3,11 +3,10 @@ variable "aws_region" {
   type        = string
   default     = "us-west-2"
 }
-
 variable "bucket_name" {
-  description = "fetch-s3-database"
+  description = "fetch-s3-warehouse"
   type        = string
-  default = "fetch-s3-database"
+  default = "fetch-s3-warehouse"
 }
 
 variable "json_files" {
@@ -16,24 +15,19 @@ variable "json_files" {
   default     = ["data/Brands.json", "data/Receipts.json", "data/users.json"]
 }
 
-# Snowflake credentials (store these securely in production)
-variable "snowflake_account" {
-  description = "Snowflake account name"
-  type        = string
-}
 
-variable "snowflake_user" {
-  description = "Snowflake username"
-  type        = string
-}
+# variable "snowflake_password" {
+#   description = "The password for Snowflake"
+#   type        = string
+#   sensitive   = true  # mark as sensitive to prevent logging the password
+# }
 
-variable "snowflake_password" {
-  description = "Snowflake password"
-  type        = string
-}
+# variable "SNOWFLAKE_ACCOUNT" {
+#   description = "The Snowflake account identifier"
+#   type        = string
+# }
 
-variable "snowflake_database" {
-  description = "Snowflake database name"
-  type        = string
-}
-
+# variable "SNOWFLAKE_REGION" {
+#   description = "The Snowflake region"
+#   type        = string
+# }
