@@ -12,7 +12,7 @@ resource "snowflake_stage" "S3_TO_SNOWFLAKE" {
 resource "snowflake_storage_integration" "s3_integration" {
   name                      = "MY_S3_INTEGRATION"
   storage_provider          = "S3"
-  storage_aws_role_arn      = "arn:aws:iam::825765414250:role/s3_snowflake_role"
+  storage_aws_role_arn      = var.storage_aws_role_arn
   storage_allowed_locations = ["s3://fetch-s3-warehouse"]
   enabled                   = true
 }

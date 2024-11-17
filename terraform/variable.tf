@@ -25,3 +25,8 @@ variable "json_files" {
 #   description = "aws secret key"
 #   type = string
 # }
+
+variable "storage_aws_role_arn"{
+  description = "storage_aws_role_arn"
+  type        = "string"
+}
