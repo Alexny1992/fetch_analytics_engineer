@@ -16,18 +16,12 @@ variable "json_files" {
 }
 
 
-# variable "snowflake_password" {
-#   description = "The password for Snowflake"
-#   type        = string
-#   sensitive   = true  # mark as sensitive to prevent logging the password
+# variable "aws_key_id" {
+#   description = "aws access key"
+#   type = string
 # }
 
-# variable "SNOWFLAKE_ACCOUNT" {
-#   description = "The Snowflake account identifier"
-#   type        = string
-# }
-
-# variable "SNOWFLAKE_REGION" {
-#   description = "The Snowflake region"
-#   type        = string
+# variable "aws_secret_key" {
+#   description = "aws secret key"
+#   type = string
 # }

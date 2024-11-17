@@ -15,18 +15,18 @@ terraform {
 # AWS provider configuration
 provider "aws" {
   region = var.aws_region
+  // .env file 
+  // AWS_ACCESS_KEY_ID
+  // AWS_SECRET_ACCESS_KEY
+  // AWS_DEFAULT_REGION
 }
 
 provider "snowflake" {
-  role = "SYSADMIN"
-}
-
-resource "snowflake_database" "db" {
-  name = "TF_DEMO"
-}
-
-resource "snowflake_warehouse" "warehouse" {
-  name           = "TF_DEMO"
-  warehouse_size = "xsmall"
-  auto_suspend   = 60
+  role = "ACCOUNTADMIN"
+  // SNOWFLAKE_ORGANIZATION_NAME
+  // SNOWFLAKE__ACCOUNT_NAME
+  // SNOWFLAKE_USER
+  // SNOWFLAKE_AUTHENTICATOR
+  // SNOWFLAKE_PRIVATE_KEY  
+  // Are all in .env
 }
