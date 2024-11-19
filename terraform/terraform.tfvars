@@ -1,1 +1,1 @@
-bucket_name           = "fetch-s3-warehouse"
+bucket_name = "fetch-s3-warehouse"

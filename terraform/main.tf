@@ -3,10 +3,10 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 5.75.1"
-    }    
+    }
     snowflake = {
-    source  = "Snowflake-Labs/snowflake"
-    version = "~> 0.87"
+      source  = "Snowflake-Labs/snowflake"
+      version = "~> 0.98.0"
     }
   }
 }
