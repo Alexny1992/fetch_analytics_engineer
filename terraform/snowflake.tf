@@ -1,5 +1,5 @@
 resource "snowflake_stage" "S3_TO_SNOWFLAKE" {
-  name                = "S3_TO_SNOWFLAK"
+  name                = "S3_TO_SNOWFLAKE"
   url                 = "s3://fetch-s3-warehouse/"
   database            = "FETCH_S3_DATABASE"
   schema              = "PUBLIC"
@@ -31,10 +31,10 @@ resource "snowflake_pipe" "json_pipe" {
   database = "FETCH_S3_DATABASE"
   schema   = "PUBLIC"
   name     = "json_pipe"
-
+  
   comment  = "Move Json files from S3 to Snowflake"
   copy_statement = <<SQL
     COPY INTO @FETCH_S3_DATABASE.PUBLIC
-    FROM @${each.value.name};
+    # FROM @${each.value.name};
   SQL
 }

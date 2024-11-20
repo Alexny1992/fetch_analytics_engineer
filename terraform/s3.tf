@@ -57,12 +57,12 @@ resource "aws_iam_role" "snowflake_role" {
       {
         "Effect": "Allow",
         "Principal": {
-          "AWS": var.snowflake_userID 
-  
+          "AWS": var.snowflake_user_arn
         },
         "Action": "sts:AssumeRole",
         "Condition": {
           "StringEquals": {
+            // Using DESCRIBE STAGE in Snowflake to get external ID;
             "sts:ExternalId": var.snowflake_externalID
           }
         }

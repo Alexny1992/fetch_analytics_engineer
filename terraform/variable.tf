@@ -12,22 +12,22 @@ variable "bucket_name" {
 variable "json_files" {
   description = "List of JSON files to upload"
   type        = list(string)
-  default     = ["data/Brands.json", "data/Receipts.json", "data/users.json"]
+  default     = ["data/Brands.json", "data/Receipts.json", "data/users.json","data/Reward_Receipt_Item.json"]
 }
 
 variable "json_files_list" {
   description = "List of JSON files for snowflake pipline"
   type        = list(string)
-  default     = ["Brands.json", "Receipts.json", "users.json"]
+  default     = ["Brands.json", "Receipts.json", "users.json","Reward_Receipt_Item.json"]
 }
 
-variable "aws_account_id" {
-  description = "aws account id"
-  type        = string
-}
+# variable "aws_account_id" {
+#   description = "aws account id"
+#   type        = string
+# }
 
-variable "snowflake_userID" {
-  description = "snowflake userID"
+variable "snowflake_user_arn" {
+  description = "snowflake user arn"
   type        = string
 }
 
