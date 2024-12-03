@@ -26,15 +26,15 @@ resource "snowflake_file_format" "json_format" {
   }
 }
 
-resource "snowflake_pipe" "json_pipe" {
-  for_each = snowflake_stage.S3_TO_SNOWFLAKE
-  database = "FETCH_S3_DATABASE"
-  schema   = "PUBLIC"
-  name     = "json_pipe"
-  
-  comment  = "Move Json files from S3 to Snowflake"
-  copy_statement = <<SQL
-    COPY INTO @FETCH_S3_DATABASE.PUBLIC
-    # FROM @${each.value.name};
-  SQL
-}
+# resource "snowflake_pipe" "json_pipe" {
+#   for_each = snowflake_stage.S3_TO_SNOWFLAKE
+#   database = "FETCH_S3_DATABASE"
+#   schema   = "PUBLIC"
+#   name     = "json_pipe"
+
+#   comment  = "Move Json files from S3 to Snowflake"
+#   copy_statement = <<SQL
+#     COPY INTO @FETCH_S3_DATABASE.PUBLIC
+#     FROM @${each.value.name};
+#   SQL
+# }
