@@ -27,6 +27,8 @@ Goals:
 
 **Tools**: Lucidchart, Excel sheet
 
+-- 
+
 ### **1.1 Data injection** 
 Here I chose ETL (Extract, Transform, Load) as the RewardReceiptItemList from the receipt table can potentially be hard to parse through after normalizing
 
