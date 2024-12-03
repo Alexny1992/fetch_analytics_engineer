@@ -44,6 +44,9 @@ Here I chose ETL (Extract, Transform, Load) as the RewardReceiptItemList from th
 9. Create a S3 stage in snowflake
 10. Create a S3 integration to warehouse resource
 
+**Tools**: Terraform, VScode, AWS S3, AWS Iam, Snowflake
+Link to the folder
+
 ---
 
 ### **2. SQL Queries**
