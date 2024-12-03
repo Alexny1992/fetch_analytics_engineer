@@ -27,6 +27,21 @@ Goals:
 
 **Tools**: Lucidchart, Excel sheet
 
+### **1.1 Data injection** 
+Here I chose ETL (Extract, Transform, Load) as the RewardReceiptItemList from the receipt table can potentially be hard to parse through after normalizing
+
+**Steps**::
+1. Install Terraform and initialize 
+2. Configure AWS S3 credential
+3. Create an IAM User role 
+4. Create a policy for S3 bucket permission under the IAM User role
+5. Attach the policy to the IAM User Role
+6. Upload files locally to S3 bucket
+7. Configure Snowflake credentials
+8. Create a connection between S3 and Snowflake
+9. Create a S3 stage in snowflake
+10. Create a S3 integration to warehouse resource
+
 ---
 
 ### **2. SQL Queries**
