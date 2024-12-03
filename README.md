@@ -70,15 +70,5 @@ Select at least two:
   - Questions and next steps for resolution.
 
 [Email to Stakeholder](https://seed-wound-036.notion.site/Fetch-Stakeholders-Email-15172f53381d80e2a336f1c655f5f052)
----
 
-## **Evaluation Criteria**
-- **Data Modeling**: Schema design clarity and alignment with business needs.
-- **SQL Queries**: Accuracy, performance, and ability to answer business questions.
-- **Data Quality Evaluation**: Depth of insights and recommendations.
-- **Communication**: Clarity and professionalism in stakeholder messaging.
-- **Code and Documentation**: Organization, readability, and reproducibility.
 
----
-
-## **Example Repository Structure**
