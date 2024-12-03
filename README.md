@@ -21,7 +21,8 @@ Goals:
    - Tables
    - Fields
    - Joinable keys
-   
+
+[Data Schema](https://lucid.app/lucidchart/ca7e5e1e-ff9f-4acf-b5e5-15261ce2ce31/edit?invitationId=inv_37785d74-604a-4b95-a0e5-22c2cb0d3e4f)
 
 **Tools**: Lucidchart, Excel sheet
 
