@@ -22,7 +22,7 @@ Goals:
    - Fields
    - Joinable keys
 
-![Data Schema](https://github.com/Alexny1992/fetch_analytics_engineer/blob/main/data_schema.jpg)
+![Data Schema](https://github.com/Alexny1992/fetch_analytics_engineer/blob/main/01_Data_modeling/data_schema.jpg)
 
 
 **Tools**: Lucidchart, Excel sheet
