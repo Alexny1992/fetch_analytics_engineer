@@ -32,7 +32,7 @@ Goals:
 ### **1.1 Data injection** 
 Here I chose ETL (Extract, Transform, Load) as the RewardReceiptItemList from the receipt table can potentially be hard to parse through after normalizing
 
-**Steps**::
+**Steps**:
 1. Install Terraform and initialize 
 2. Configure AWS S3 credential
 3. Create an IAM User role 
