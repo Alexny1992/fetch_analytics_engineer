@@ -42,6 +42,7 @@ Select at least two:
 - Brand with the most transactions among users created within the past 6 months.
 
 **Tools**: Snowflake, Terraform, Amazon S3, Pandas, Google Collab
+
 ---
 
 ### **3. Data Quality Evaluation**
