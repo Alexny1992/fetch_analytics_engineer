@@ -24,7 +24,7 @@ Goals:
 
 ![Data Schema](https://github.com/Alexny1992/fetch_analytics_engineer/blob/main/01_Data_modeling/Data_Schema_ERD.jpg)
 
-A scenario walkthrough: Someone registers an account through Fetch app, creating usersID and createdate, and all the necessary information He or she scans a receipt through the app and create essential information to the receipt table - a user can have multiple receipts (1 to many relationship) However, a receipt can contain Multiple items and multiple receipts can also be from the same item therefore this is a many-to-many relationship   Within the receipt item table, Barcode column connects to Brands table. Multiple items can be under one brand (Many to one relationship) Finally, a brand can only be under one category so this will be a one-to-one relationship 
+**A scenario walkthrough**: Someone registers an account through Fetch app, creating usersID and createdate, and all the necessary information He or she scans a receipt through the app and create essential information to the receipt table - a user can have multiple receipts (1 to many relationship) However, a receipt can contain Multiple items and multiple receipts can also be from the same item therefore this is a many-to-many relationship   Within the receipt item table, Barcode column connects to Brands table. Multiple items can be under one brand (Many to one relationship) Finally, a brand can only be under one category so this will be a one-to-one relationship 
 
 Supplement: I have also worked on a bottom-up approach through normal form, images are included in the 01_ folder 
 
