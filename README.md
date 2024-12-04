@@ -74,13 +74,9 @@ Select at least two:
 **Steps**:
 1. Explore JSON data programmatically using Python and Pandas
 2. Identify potential issues (e.g., missing values, inconsistent formats, duplicates).
-3. Document findings and recommendations in a markdown file (`data_quality.md`).
 
-**Deliverables**:
-- Code used for evaluation (e.g., `data_quality_check.py`).
-- A report (`data_quality.md`) summarizing:
-  - Identified issues
-  - Methods of discovery
+  - Identified issues 
+  - Methods of discovery (EDA)
   - Recommendations for resolution
 
 ---
