@@ -22,7 +22,7 @@ Goals:
    - Fields
    - Joinable keys
 
-![Data Schema](https://github.com/Alexny1992/fetch_analytics_engineer/blob/main/data_schema.jpg)
+![Data Schema](https://github.com/Alexny1992/fetch_analytics_engineer/blob/main/01_Data_modeling/data_schema.jpg)
 
 
 **Tools**: Lucidchart, Excel sheet
@@ -32,7 +32,7 @@ Goals:
 ### **1.1 Data injection** 
 Here I chose ETL (Extract, Transform, Load) as the RewardReceiptItemList from the receipt table can potentially be hard to parse through after normalizing
 
-**Steps**::
+**Steps**:
 1. Install Terraform and initialize 
 2. Configure AWS S3 credential
 3. Create an IAM User role 
