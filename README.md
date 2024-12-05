@@ -51,6 +51,7 @@ Here I chose ETL (Extract, Transform, Load) as the RewardReceiptItemList from th
 Link to the folder
 
 Note: I initially started with Pandas route storing all the data locally into DBeaver through psycopg2. I scratched the route and decided to go with a tech stack that better aligns with Fetch. 
+Note: Terraform code files were different from the ones I used for analysis. The code works fine but the for time being I chose to clean the data through Pandas and directly uploaded to snowflake for the project. 
 
 ---
 
