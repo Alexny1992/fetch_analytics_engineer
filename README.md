@@ -53,6 +53,7 @@ Link to the folder
 Note: I initially started with Pandas route storing all the data locally into DBeaver through psycopg2. I scratched the route and decided to go with a tech stack that better aligns with Fetch. 
 
 Note: The json files in the Terraform code are different from the files I used for analysis. Terraform code works fine, however, for the time being, I chose to clean the data through Pandas and directly upload them to Snowflake for the project. Here's a snapshot of my snowflake database:
+
 ![Snowflake Database](https://github.com/Alexny1992/fetch_analytics_engineer/blob/main/02_Data_Injection/Snowflake_Database_Snapshot.jpg)
 
 ---
